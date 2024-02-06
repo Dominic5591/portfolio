@@ -1,6 +1,7 @@
 {
   "name": "dominicportfolio",
   "version": "0.1.0",
+  "deploy": "gh-pages -d dist -t true",
   "private": true,
   "scripts": {
     "dev": "next dev",
