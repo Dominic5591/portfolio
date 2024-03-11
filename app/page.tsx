@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mb-8 mt-10 z-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mb-8 mt-10 z-10">
           <div className="bg-gray-100 hover:bg-gray-200 bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="p-4">
               <h2 className="text-black text-xl font-semibold mb-2">QuantumShop</h2>
@@ -45,6 +45,16 @@ export default function Home() {
             <div className="p-4 bg-gray-100 hover:bg-gray-200 border-t border-gray-200 flex justify-between">
               <Link href="https://dominic5591.github.io/Space-Frenzy/" className="text-blue-500 hover:text-blue-700">Play Now</Link>
               <Link href="https://github.com/Dominic5591/Space-Frenzy" className="text-blue-500 hover:text-blue-700">Github</Link>
+            </div>
+          </div>
+          <div className=" bg-gray-100 hover:bg-gray-200 shadow-lg rounded-lg overflow-hidden flex flex-col justify-between">
+            <div className="p-4">
+              <h2 className="text-black text-xl font-semibold mb-2">Habit Tree</h2>
+              <p className="text-black">A habit tracking application made using MERN stack</p>
+            </div>
+            <div className="p-4 bg-gray-100 hover:bg-gray-200 border-t border-gray-200 flex justify-between">
+              <Link href="https://habit-tree.onrender.com/" className="text-blue-500 hover:text-blue-700">Visit Site</Link>
+              <Link href="https://github.com/cfang322/Habit-Tree" className="text-blue-500 hover:text-blue-700">Github</Link>
             </div>
           </div>
         </div>
