@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import profile from './assets/dom-profile.jpg';
+import profile from './assets/profiledom.jpg';
 import banner from './assets/background.jpg'; 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col items-center justify-center w-full">
 
         <div className="max-w-md text-center mb-8">
-          <Image src={profile} alt="profile" className="rounded-full w-40 h-40 mx-auto mb-4 z-10" />
+          <Image src={profile} alt="profile" className="rounded-full w-60 mx-auto mb-4 z-10" />
           <h1 className="text-4xl font-bold mb-2">Welcome to My Portfolio</h1>
         </div>
 
