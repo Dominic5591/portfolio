@@ -5,9 +5,9 @@ import banner from './assets/background.jpg';
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col items-center justify-center min-h-screen p-12">
+    <main className="z-0 relative flex flex-col items-center justify-center min-h-screen p-12">
 
-      <div className="absolute inset-0 w-full h-full z-0">
+      <div className=" z-10 absolute inset-0 w-full h-full z-0">
         <Image src={banner} alt="Banner" className="w-30 h-30" />
       </div>
 
