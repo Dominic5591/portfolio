@@ -4,7 +4,7 @@ import profile from './assets/profiledom.jpg';
 import banner from './assets/background.jpg'; 
 import fsp from './assets/FSP.png';
 import mern from './assets/MERN.png';
-import jsp from './assets/JSP.png';
+import jsp from './assets/JSP1.png';
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="bg-gray-100 hover:bg-gray-200 shadow-lg rounded-lg overflow-hidden flex flex-col justify-between">
             <div className="p-4">
               <h2 className="text-black text-xl font-semibold mb-2">QuantumShop</h2>
-              <Image src={fsp} alt="fsp" className="mb-10"/>
+              <Image src={fsp} alt="fsp" className="mb-10 h-32"/>
               <p className="text-black">Simple clone of Amazon using React / Redux, Ruby on Rails, HTML, CSS</p>
             </div>
             <div className="p-4 bg-gray-100 hover:bg-gray-200 border-t border-gray-200 flex justify-between">
@@ -44,7 +44,7 @@ export default function Home() {
           <div className="bg-gray-100 hover:bg-gray-200 shadow-lg rounded-lg overflow-hidden flex flex-col justify-between">
             <div className="p-4">
               <h2 className="text-black text-xl font-semibold mb-2">Space Frenzy</h2>
-              <Image src={jsp} alt="jsp" className="mb-1 h-30 w-30"/>
+              <Image src={jsp} alt="jsp" className="mb-10"/>
               <p className="text-black">Vanilla JavaScript space arcade game</p>
             </div>
             <div className="p-4 bg-gray-100 hover:bg-gray-200 border-t border-gray-200 flex justify-between">
@@ -55,7 +55,7 @@ export default function Home() {
           <div className=" bg-gray-100 hover:bg-gray-200 shadow-lg rounded-lg overflow-hidden flex flex-col justify-between">
             <div className="p-4">
               <h2 className="text-black text-xl font-semibold mb-2">Habit Tree</h2>
-              <Image src={mern} alt="mern" className="mb-10"/>
+              <Image src={mern} alt="mern" className="mb-10 h-32"/>
               <p className="text-black">A habit tracking application made using MERN stack</p>
             </div>
             <div className="p-4 bg-gray-100 hover:bg-gray-200 border-t border-gray-200 flex justify-between">
