@@ -2,6 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import profile from './assets/profiledom.jpg';
 import banner from './assets/background.jpg'; 
+import fsp from './assets/FSP.png';
+import mern from './assets/MERN.png';
+import jsp from './assets/JSP.png';
 
 export default function Home() {
   return (
@@ -26,10 +29,11 @@ export default function Home() {
         </div>
         
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mb-8 mt-10 z-10">
-          <div className="bg-gray-100 hover:bg-gray-200 bg-white shadow-lg rounded-lg overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl  mb-8 mt-10 z-10">
+          <div className="bg-gray-100 min-h-10 hover:bg-gray-200 bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="p-4">
               <h2 className="text-black text-xl font-semibold mb-2">QuantumShop</h2>
+              <Image src={fsp} alt="fsp"/>
               <p className="text-black">Simple clone of Amazon using React / Redux, Ruby on Rails, HTML, CSS</p>
             </div>
             <div className="p-4 bg-gray-100 hover:bg-gray-200 border-t border-gray-200 flex justify-between">
