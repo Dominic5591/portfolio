@@ -11,6 +11,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "dominiccashiola",
   description: "Made with nextjs and tailwind css",
+  
 };
 
 export default function RootLayout({

@@ -1,3 +1,4 @@
+'use client';
 import Link from "next/link";
 import Image from "next/image";
 import profile from './assets/profiledom.jpg';
@@ -5,13 +6,16 @@ import banner from './assets/background.jpg';
 import fsp from './assets/FSP.png';
 import mern from './assets/MERN.png';
 import jsp from './assets/JSP1.png';
+import MyGitHubCalendar from "./githubcalendar";
+
 
 export default function Home() {
+
   return (
     <main className="z-0 relative flex flex-col items-center justify-center min-h-screen p-12">
 
       <div className="absolute inset-0 w-full h-full">
-        <Image src={banner} alt="Banner" className="w-30 h-30 p-5 object-scale-down" />
+        <Image src={banner} alt="Banner" className="w-30 h-30 p-5 object-scale-down" priority/>
       </div>
 
 
@@ -66,13 +70,20 @@ export default function Home() {
         </div>
 
         <div className="max-w-md mb-8 mt-10 text-center">
-          <h2 className="text-2xl font-bold text-l mb-4 text-white">Favorite Languages</h2>
+          <h2 className="text-2xl font-bold text-l mb-4 text-white">Favorite Technologies</h2>
           <ul className="flex flex-wrap justify-center gap-10 text-white">
             <li>React/Redux</li>
             <li>JavaScript</li>
             <li>Ruby/Rails</li>
           </ul>
+
+
+
         </div>
+
+        {/* <MyGitHubCalendar/> */}
+
+
 
 
 
