@@ -77,13 +77,21 @@ export default function Home() {
             <li>Ruby/Rails</li>
           </ul>
 
-
-
         </div>
 
+        {/* <Image src="http://ghchart.rshah.org/Dominic5591" alt="Dominic5591's Github chart" /> */}
         {/* <MyGitHubCalendar/> */}
 
 
+        <div className="bg-black h-96">
+
+          <img
+            className="text-yellow-300 h-44"
+            src="http://ghchart.rshah.org/027802/Dominic5591"
+            alt="Dominic5591's Github chart"
+          />
+
+        </div>
 
 
 
